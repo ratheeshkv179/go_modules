@@ -17,3 +17,7 @@ func Difference(a int, b int) (int, error) {
 	return 0, errors.New("Invalid Input")
 
 }
+
+func Product(a int, b int) int {
+	return a * b
+}
