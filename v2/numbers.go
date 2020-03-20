@@ -5,10 +5,10 @@ import (
 )
 
 // Sum of input values
-func Sum(a ...) int {
+func Sum(a ...int) int {
 
 	sum := 0
-	for _, v := range a{
+	for _, v := range a {
 		sum += v
 	}
 	return sum
